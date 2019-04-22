@@ -1,0 +1,73 @@
+.row {
+  margin-bottom: 15px;
+  margin : 10px;
+}
+.row > div {
+  
+  background-color: gray;
+  margin-bottom: 10px;
+  color: black;
+}
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 2px solid;
+}
+.navbar-brand {
+  padding-top: 25px;
+  text-align: left;
+
+
+}
+h2
+{
+	color:black;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  
+  color: black;
+  
+  font-weight: bold;
+ 
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar
+{
+	min-height: 80px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+.navbar-collapse {
+  border-top: 1px;
+}
+#navbar-list {
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+#navbar-list hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px solid black;
+  }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin: 40px;
+}
